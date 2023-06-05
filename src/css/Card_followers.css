@@ -1,0 +1,81 @@
+.followers{
+    margin-top: 0;
+    color:rgb(130, 130, 178);
+    font-size:0.75rem;
+    background-color: hsl(232, 19%, 15%);
+    border-radius: 0  0 20px 20px;
+    padding: 0 8vw 10vw 8vw ;
+  }
+  /*Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)*/
+  
+  .card_follower {
+    width: 15vw;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(228, 28%, 20%);
+    height: 100%;
+    border-radius: 5px;
+    text-indent: 25%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0, -50%);
+  }
+    
+    .facebook-email{
+    border-top: 3px hsl(208, 92%, 53%) solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw 1.5vw 1.25vw 0;
+    }
+    .card--email{
+    color: hsl(228, 34%, 66%);
+    font-size: 0.75vw;
+    font-weight: 700;
+    
+    }
+    .nb-followers{
+    font-weight: 700;
+    font-size: 2.75vw;
+    margin-bottom: 0;
+    }
+    .p-followers{
+    color: hsl(228, 34%, 66%);
+    letter-spacing: 0.4vw;
+    font-size: 0.75vw;
+    padding-bottom: 1.1vw;
+    }
+    .up-icon-card{
+    padding:0 ;
+    height: 100%;
+    }
+    .text-card-green{
+    font-size: 0.70vw;
+    color: hsl(163, 72%, 41%);
+    width: 3.6vw;
+    font-weight: 700;
+    text-indent:initial;
+    padding-left: 0.25vw;
+    white-space: nowrap;
+    }
+    .text-card-red{
+    font-size: 0.70vw;
+    color: red;
+    width: 3.6vw;
+    font-weight: 700;
+    text-indent:initial;
+    padding-left: 0.25vw;
+    white-space: nowrap;
+    }
+    .up-icon-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    }
+    .facebook--img{
+      width: 1.5vw;
+      height: 1.5vw;
+    }

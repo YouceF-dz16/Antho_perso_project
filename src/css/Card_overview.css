@@ -1,0 +1,73 @@
+.card_overview {
+    width: 15vw;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(228, 28%, 20%);
+    height: 50%;
+    border-radius: 0.3vw;
+    text-indent: 20%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5vw;
+    
+  }
+.title-overview{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5vw;
+    transform:translateY(-100%)
+}
+    
+    .nb-overview{
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+    }
+    .p-overview{
+    color: hsl(228, 34%, 66%);
+    white-space: nowrap;
+    font-size: 0.75vw;
+    padding-bottom: 1.1vw;
+    }
+    .up-icon-card{
+    padding:0 ;
+    height: 0.3vw;
+    }
+    .text-card-overview-green{
+    font-size: 0.70vw;
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+    padding-left: 0.25vw;
+    }
+    .text-card-overview-red{
+    font-size: 0.70vw;
+    color: red;
+    font-weight: 700;
+    padding-left: 0.25vw;
+    }
+    .up-icon-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    }
+    .cards-title{
+      display: flex;
+      justify-content: space-between;
+    }
+    .facebook-icon{
+      width: 1.5vw;
+      height: 1.5vw;
+    }
+    span{
+      display: flex;
+      align-items: center;
+      
+    }
+    .nb-followers-icon{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
